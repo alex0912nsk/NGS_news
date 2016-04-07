@@ -2,5 +2,8 @@ language: python
 python:
   - "3.5"
 
+before_script:
+  - curl https://gist.github.com/santiycr/5139565/raw/sauce_connect_setup.sh | bash
+  
 # command to run tests
 script: nosetests TestCases.py
