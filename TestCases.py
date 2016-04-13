@@ -32,7 +32,7 @@ class SeleniumTest(TestCase):
 
     def test_comments_true(self):
         self.page.home_page.open_articles()
-        self.page.all_articles.news_number(145, 'comments')
+        self.page.all_articles.news_number(149, 'comments')
         comment = 'пишу автотесты, не добавляйте комментарий и простите:)'
         status = 'Комментарий добавлен. Пользователи увидят его после проверки модератором'
         self.page.comments.write_comment('ggg', 'ggg', comment)
