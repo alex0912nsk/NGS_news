@@ -4,7 +4,7 @@ import unittest
 
 from selenium import webdriver
 from page import Page
-from __init__ import data_provider
+from dataprovider import data_provider
 
 
 class SeleniumTest(TestCase):
