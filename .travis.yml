@@ -12,6 +12,4 @@ before_script:
   - sleep 3 # give xvfb some time to start
   
 # command to run tests
-script:
-  - page.py
-  - nosetests TestCases.py
+script: nosetests TestCases.py
